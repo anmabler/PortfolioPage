@@ -30,6 +30,18 @@
     background-color: maroon;
 }
 
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:black;
+}
+
+img{
+    height: 150px;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 600px){
     .grid-container{
         grid-template-areas: 
