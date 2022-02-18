@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-areas:
+    'header header header header'
+    'main main main aside'
+    'footer footer footer footer'
+}
+
+#header {
+    grid-area: header;
+    background-color: brown;
+}
+#main {
+    grid-area: main;
+    background-color: blue;
+}
+#aside {
+    grid-area: aside;
+    background-color: red;
+}
+#footer {
+    grid-area: footer;
+    background-color: maroon;
+}
+
+@media only screen and (max-width: 600px){
+    .grid-container{
+        grid-template-areas: 
+        'header header header header'
+        'main main main main'
+        'aside aside aside aside'
+        'footer footer footer footer'
+    }
+}
