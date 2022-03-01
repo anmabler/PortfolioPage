@@ -1,57 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Delius+Unicase&family=Gotu&family=Handlee&family=Syncopate&family=Text+Me+One&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif;
+
+font-family: 'Delius Unicase', cursive;
+
+font-family: 'Gotu', sans-serif;
+
+font-family: 'Handlee', cursive;
+
+font-family: 'Syncopate', sans-serif;
+
+font-family: 'Text Me One', sans-serif; */
+
+#header h1{
+    
+    font-family: 'Delius Unicase', cursive;
+    
+    /* font-family: 'Gotu', sans-serif; */
+    
+    /* font-family: 'Syncopate', sans-serif; */
+    
+    /* font-family: 'Text Me One', sans-serif; */
+    letter-spacing: 10px;
+    margin-top: 50px;
+    
+}
+
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 .grid-container{
+    background-image: url('/assets/gradienta-LeG68PrXA6Y-unsplash\(1\).jpg');
+    background-size: cover;
     display: grid;
-    grid-gap: 5px;
+    /* grid-gap: 5px; */
     grid-template-rows: auto;
-    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 4.5fr 1.5fr;
     grid-template-areas:
-    'header header header header'
-    'main main main aside'
-    'footer footer footer footer'
+    'header header'
+    'main aside'
+    'footer footer'
 }
 
 #header {
     grid-area: header;
-    background-color: brown;
+    /* background-color: brown; */
+    height: 15vh;
+    text-align: center
 }
+
 #main {
     grid-area: main;
-    background-color: blue;
+    /* background-color: blue; */
     text-align: justify;
 }
+
 #aside {
+    font-family: 'Chakra Petch', sans-serif;
     grid-area: aside;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
 }
+
 #footer {
     grid-area: footer;
-    background-color: maroon;
+    /* background-color: maroon; */
     text-align: center;
     padding-top: 1rem;
+}
+
+.main-div{
+    padding: 20px;
 }
 
 ul{
     display: inline-block;
     text-align: left;
+    line-height: 2rem;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    padding: 40px;
+    /* list-style-type: none; */
 }
 
 a{
     text-decoration: none;
 }
+
 a:link, a:visited {
     color:black;
 }
 
 img{
+    display: block;
     height: 150px;
     /* border-radius: 50%; */
 }
-form{
+
+/* .aside-div{
+    border: 2px solid black;
+    height: 50vh;
+    width: 60%;
+    
+} */
+
+.contact-form{
     display: block;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px 0;
+}
+.contact-form input, .contact-form textarea, .contact-form button{
+    margin: 5px;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    box-shadow: 0 0 3px black;
+    outline: 0;
+}
+.contact-form button {
+    border-radius: 4px;
+    display: block;
+}
+.contact-form button:hover{
+    box-shadow: 0 0 5px black;
 }
 
 
