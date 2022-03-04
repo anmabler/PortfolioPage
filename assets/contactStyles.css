@@ -1,0 +1,35 @@
+h2{
+    margin-left:5px;
+}
+.back-arrow{
+    position: absolute;
+    top: 50vh;
+    right: 25vw;
+}
+.contact-form{
+    display: block;
+    margin: 20px;
+    margin-left: 25vw;
+    padding: 10px 0;
+}
+.contact-form input, .contact-form textarea, .contact-form button{
+    margin: 5px;
+    font-size: 1rem;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    box-shadow: 0 0 6px black;
+    outline: 0;
+}
+.contact-form button {
+    border-radius: 4px;
+    display: block;
+}
+.contact-form button:hover{
+    box-shadow: 0 0 5px black;
+}
+
+@media only screen and (max-width: 600px){
+    .contact-form{
+        margin-left:auto
+    }
+}
