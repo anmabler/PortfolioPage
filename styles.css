@@ -75,7 +75,13 @@ body{
 }
 
 .main-div{
+    width: 75%;
+    margin: 0 20vw;
     padding: 20px;
+    border: 2px solid black;
+}
+
+.about-text{
 }
 
 ul{
@@ -97,12 +103,14 @@ a:link, a:visited {
     color:black;
 }
 
-img{
+.profile-pic{
     display: block;
     height: 150px;
     /* border-radius: 50%; */
 }
-
+.proof{
+    height: 800px;
+}
 /* .aside-div{
     border: 2px solid black;
     height: 50vh;
