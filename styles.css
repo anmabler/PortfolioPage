@@ -135,6 +135,12 @@ a:link, a:visited {
     }
 }
 
+@media only screen and (max-width: 880px){
+    #main{
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 700px){
     #header h1{
         letter-spacing: normal;
