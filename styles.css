@@ -38,6 +38,7 @@ body{
 #main {
     grid-area: main;
     text-align: justify;
+    height: 100vh;
 }
 
 #aside {
