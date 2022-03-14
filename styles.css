@@ -38,6 +38,7 @@ body{
 #main {
     grid-area: main;
     text-align: justify;
+    height: 100vh;
 }
 
 #aside {
@@ -134,7 +135,7 @@ a:link, a:visited {
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     #header h1{
         letter-spacing: normal;
     }
@@ -148,6 +149,12 @@ a:link, a:visited {
     ul{
         border-radius: 0;
         box-shadow:none;
+    }
+    .main-div{
+        margin: auto;
+    }
+    .proof{
+        visibility: hidden;
     }
     .grid-container{
         grid-template-columns: 1fr;
