@@ -6,26 +6,20 @@
     font-family: 'Text Me One',sans-serif;
 }
 
-#header h1{
-    
+#header h1{  
     font-family: 'Delius Unicase', cursive; 
     letter-spacing: 10px;
 }
+
 body{
     background-image: url('/assets/gradienta-LeG68PrXA6Y-unsplash\(1\).jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* font-size: 1rem; */
-    /* font-family: 'Gotu', sans-serif; */
 }
 
-.outer-container{
-    /* margin: 0 20%; */
-}
 .grid-container{
     display: grid;
-    /* grid-gap: 5px; */
     grid-template-rows: auto;
     grid-template-columns: 4.5fr 1.5fr;
     grid-template-areas:
@@ -37,35 +31,26 @@ body{
 #header {
     margin-top: 5vh;
     grid-area: header;
-    /* background-color: brown; */
     height: 15vh;
     text-align: center
 }
 
 #main {
     grid-area: main;
-    /* background-color: blue; */
     text-align: justify;
 }
 
 #aside {
-    /* font-family: 'Chakra Petch', sans-serif; */
     grid-area: aside;
-    /* background-color: red; */
     text-align: center;
 }
 
 #footer {
     grid-area: footer;
-    /* background-color: maroon; */
     text-align: center;
-    /* padding-top: 3rem; */
-    /* border: 3px solid black; */
 }
+
 .arrow{
-    /* border: 2px solid black; */
-    /* box-shadow: 0 0 3px black;
-    border-radius: 50%; */
     width: 3rem;
     text-align: center;
     position:fixed;
@@ -81,18 +66,13 @@ body{
     border: 2px solid black;
 }
 
-.about-text{
-}
-
 ul{
     display: inline-block;
     text-align: left;
     line-height: 2rem;
-    /* border: 2px solid black; */
     border-radius: 10px;
     box-shadow: 4px 4px 10px black;
     padding: 40px;
-    /* list-style-type: none; */
 }
 
 a{
@@ -106,17 +86,11 @@ a:link, a:visited {
 .profile-pic{
     display: block;
     height: 150px;
-    /* border-radius: 50%; */
 }
+
 .proof{
     height: 800px;
 }
-/* .aside-div{
-    border: 2px solid black;
-    height: 50vh;
-    width: 60%;
-    
-} */
 
 .nav{
     width: 50%;
@@ -131,7 +105,6 @@ a:link, a:visited {
 .nav-links:hover{
     box-shadow: 0 0 2px black;
     border-radius: 6px;
-
 }
 
 .flex-item{
